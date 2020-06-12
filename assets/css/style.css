@@ -9,4 +9,11 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+.flex-row {
+    display: flex;
+}
 
+.photo {
+    height: 40%;
+    width: 40%;
+}
