@@ -5,7 +5,7 @@
 }
 
 body { 
-    color: lightseagreen;
+    color: darkslategrey;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -13,7 +13,47 @@ body {
     display: flex;
 }
 
+header {
+    padding: 20px 35px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: lightseagreen;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
 .photo {
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
 }
