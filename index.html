@@ -1,78 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title> Rachel Fritz Portfolio </title>
-        <link rel="stylesheet" href="./assets/css/style.css"/>
-    </head>
 
-    <body>
-        <header>
-            <h1>
-             Rachel Fritz
-            </h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lernantino // Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-            <nav>
-                <!-- Unordered list element -->
-                <ul>
-                <!-- List item element -->
-                    <li>
-                    <!-- Anchor element -->
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact Me</a>
-                    </li>
-                </ul>
-            </nav>
+<body>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Lernantino</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="#">Resume</a>
+    </nav>
+  </header>
 
-        </header>
-    </body>
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>Cool subtitle here!</h2>
+    </div>
+  </section>
 
-    <section>
-        <div> 
-            <img class="photo" src=./assets/images/rachel.jpeg>
-        </div>
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter
+          plaid
+          direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard
+          Carles you
+          probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut
+          paleo
+          scenester
+        </p>
+        <p>
+          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
+          dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
+          Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap
+          squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't
+          heard of them American Apparel next level pug ugh.
+        </p>
+      </div>
     </section>
 
-    <br>
+    <!-- portfolio grid -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="grid-container">
 
-    <!-- About Me -->
-    <section id="about-me" class="about me"> 
-        <h2 class="secondary title"> 
-            About Me
-        </h2>
-    
-    <div class="flex-row">
-        Early after starting my career in graphic design, I realized my eagerness to learn more about the technical
-        side of design, how websites are generated and what all really went on "behind the scenes". I began a coding
-        bootcamp through Vanderbilt University after 2 years of working as a graphic designer not only to redirect my
-        career path but also to further develop my design skillsets and build upon the knowledge I already knew.
-    </div>
+        <a href="#" class="grid-item surf-report">
+          <div>
+            <h3>Surf Report</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+        
+        <a href="#" class="grid-item led-wall">
+          <div>
+            <h3>LED Wall</h3>
+            <span>Node/IoT</span>
+          </div>
+        </a>
+        <a href="#" class="grid-item react-calc">
+          <div>
+            <h3>Calculator</h3>
+            <span>React/JavaScript/CSS</span>
+          </div>
+        </a>
 
-    <br>
+        <a href="#" class="grid-item pastel-puzzles">
+          <div>
+            <h3>Pastel Puzzels</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
 
-    <!-- Projects -->
-    <section id="projects" class="projects"> 
-        <h2 class="secondary title"> 
-            Projects
-        </h2>
     
-    <div class="flex-row">
-        Lorem ipsum ....
-    </div>
+        <a href="#" class="grid-item run-buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
 
-    <br>
-    
-    <!-- Contact Me -->
-    <section id="contact" class="contact"> 
-        <h2 class="secondary title"> 
-            Contact Me
-        </h2>
-    
-    <div class="flex-row">
-        Lorem ipsum ....
-    </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+15555555555">555.555.5555</a>
+          <a href="mailto:lernantino@website.com">lernantino@website.com</a>
+          <a href="#">GitHub</a>
+          <a href="#">Twitter</a>
+          <a href="#">Spotify</a>
+        </address>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
