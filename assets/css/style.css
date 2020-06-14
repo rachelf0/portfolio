@@ -2,19 +2,19 @@
     box-sizing: border-box;
   }
   
-  /* brand color palette */
+  /* Main Colors */
   :root {
-    --primary: rgba(68, 88, 119, 1);
-    --secondary: rgba(146, 204, 206, 1);
-    --tertiary: rgba(49, 52, 61, 1);
-    --dark: rgba(28, 29, 33, 1);
+    --primary: rgb(116, 130, 150);
+    --secondary: rgb(188, 211, 211);
+    --tertiary: rgb(78, 80, 87);
+    --dark: rgb(149, 155, 179);
     --light: rgba(238, 238, 247, 1);
   }
   
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--primary);
     background-color: var(--light);
     line-height: 1.5;
@@ -87,8 +87,7 @@
   }
   
   .hero-banner {
-    background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("../images/splatt.jpg");
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -228,19 +227,19 @@
   }
   
   .led-wall {
-    background-image: url("../images/02-portfolio-1.jpg");
+    background-image: url("../images/coming soon.jpg");
   }
   
   .react-calc {
-    background-image: url("../images/02-portfolio-2.jpg");
+    background-image: url("../images/coming soon.jpg");
   }
   
   .pastel-puzzles {
-    background-image: url("../images/02-portfolio-3.jpg");
+    background-image: url("../images/coming soon.jpg");
   }
   
   .surf-report {
-    background-image: url("../images/02-portfolio-4.jpg");
+    background-image: url("../images/coming soon.jpg");
   }
   
   /* END PORTFOLIO PROJECT IMAGES */
