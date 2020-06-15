@@ -100,6 +100,13 @@
     text-align: right;
   }
   
+  .photo {
+    height: 25%;
+    width: 25%;
+    right: 200px;
+    top: 200px;
+}
+
   .hero-banner div {
     flex: 0 0 90%;
   }
