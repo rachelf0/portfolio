@@ -99,13 +99,6 @@
     align-items: flex-end;
     text-align: right;
   }
-  
-  .photo {
-    height: 25%;
-    width: 25%;
-    right: 200px;
-    top: 200px;
-}
 
   .hero-banner div {
     flex: 0 0 90%;
@@ -214,7 +207,6 @@
     text-decoration: none;
     font-size: 1.3rem;
     font-style: normal;
-    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: bottom;
